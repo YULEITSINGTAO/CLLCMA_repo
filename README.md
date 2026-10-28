@@ -113,5 +113,3 @@ Python packages are listed in `requirements-python.txt`. `performance_test.R` ca
 - dbGaP genotypes, association scans, and subject-level clinical tables
 - Single-cell count matrices and Seurat objects
 - Bulk TPM, mutation, and splicing matrices
-
-Add a license file before making the repository public.
