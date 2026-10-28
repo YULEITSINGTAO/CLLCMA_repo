@@ -1,0 +1,8 @@
+# Python packages imported by CLLCMA_alpha/scripts.
+# Pins are not frozen; install into the environment you use for the analysis.
+numpy
+pandas
+scipy
+matplotlib
+gseapy
+torch

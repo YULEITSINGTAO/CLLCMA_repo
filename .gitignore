@@ -1,0 +1,33 @@
+# Generated objects and controlled-access inputs. Do not commit these.
+CLLCMA_alpha/datasets/
+CLLCMA_alpha/integrated_raw/
+CLLCMA_alpha/integrated_annotated/
+CLLCMA_alpha/results/
+CLLCMA_alpha/logs/
+CLLCMA_alpha/website/
+
+# Genotypes and GWAS products (dbGaP phs000879)
+CLLCMA_alpha/bulk/**/*.bed
+CLLCMA_alpha/bulk/**/*.bim
+CLLCMA_alpha/bulk/**/*.fam
+CLLCMA_alpha/bulk/**/output/
+CLLCMA_alpha/bulk/**/gemma_*/
+CLLCMA_alpha/bulk/**/plink_*/
+CLLCMA_alpha/bulk/**/*clinical*
+CLLCMA_alpha/bulk/**/*.assoc.txt
+CLLCMA_alpha/bulk/**/*.log
+
+# Bulk expression, clinical tables, and splicing matrices
+CLLCMA_alpha/bulk/**/data_*.txt
+CLLCMA_alpha/bulk/**/spladder_output/
+CLLCMA_alpha/bulk/**/*.xlsx
+
+*.rds
+*.h5ad
+*.h5
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
